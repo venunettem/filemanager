@@ -13,7 +13,7 @@ How to Run:
 2. Open Command prompt and navigate to the saved directory
 3. Run the command “mvn clean install”.
 4. Navigate to the generated target directory and run the command
-        “java –jar filemanager-0.0.1-SNAPSHOT.jar”.
+        “java –jar target/filemanager-0.0.1-SNAPSHOT.jar”.
 5. open postman
 to upload a file:
       url -  http://localhost:8181/filemetadata/v1/upload      
