@@ -16,13 +16,11 @@ How to Run:
         “java –jar filemanager-0.0.1-SNAPSHOT.jar”.
 5. open postman
 to upload a file:
-      url -  http://localhost:8181/filemetadata/v1/upload
-      
+      url -  http://localhost:8181/filemetadata/v1/upload      
       http method -  POST
       remove headers	
       use form-data option to upload "sample.txt" with key name as "file"		
 
 to get file meta data
-    url -  http://localhost:8181/filemetadata/v1/metadata?filename=sample.txt
-    
+    url -  http://localhost:8181/filemetadata/v1/metadata?filename=sample.txt    
     http method-  GET 
